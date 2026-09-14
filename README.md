@@ -4,8 +4,9 @@ A static portfolio site for GitHub Pages.
 
 ## Site structure
 
-- `index.html` contains the introduction and links to the two work indexes.
+- `index.html` contains the introduction and links to the work pages.
 - `printmaking.html` contains the three printmaking process photographs.
+- `pigeons.html` contains the pigeon learning research description and photograph.
 - `interactions/index.html` contains links to interaction design and research projects.
 - `interactions/` contains the detail pages for Audible Feelings, Exploring Sound Effects, and Audio Canvas.
 - `styles.css` controls the shared typography, layout, and responsive styles.

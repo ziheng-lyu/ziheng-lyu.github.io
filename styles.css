@@ -115,6 +115,18 @@ h1 {
   padding-top: 28px;
 }
 
+.project-detail a {
+  overflow-wrap: anywhere;
+}
+
+.research-figure {
+  margin-top: 28px;
+}
+
+.research-figure img {
+  border: 1px solid var(--color-line);
+}
+
 .section-label {
   margin-bottom: 16px;
   color: var(--color-text);
