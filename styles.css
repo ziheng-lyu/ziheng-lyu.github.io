@@ -269,6 +269,14 @@ h1 {
   font-weight: 600;
 }
 
+.status-note {
+  max-width: 69ch;
+  margin-top: 18px;
+  color: var(--color-publication);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 @media (max-width: 620px) {
   .site-shell {
     padding-top: 22px;
