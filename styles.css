@@ -127,6 +127,21 @@ h1 {
   border: 1px solid var(--color-line);
 }
 
+.research-figure figcaption {
+  max-width: var(--text-width);
+  margin-top: 12px;
+  color: var(--color-muted);
+  font-size: 14px;
+}
+
+.interaction-flow img {
+  border: 0;
+}
+
+.interaction-flow > a {
+  display: block;
+}
+
 .section-label {
   margin-bottom: 16px;
   color: var(--color-text);
@@ -240,8 +255,36 @@ h1 {
   font-weight: 400;
 }
 
+.entry-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px 24px;
+}
+
+.project-date {
+  color: var(--color-muted);
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.entry-heading .project-date {
+  flex-shrink: 0;
+}
+
+.entry-description {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .project-detail {
   max-width: var(--text-width);
+}
+
+.project-detail-illustrated {
+  max-width: none;
 }
 
 .project-detail h1 {
@@ -249,7 +292,11 @@ h1 {
   font-weight: 400;
 }
 
-.project-detail > p:not(.citation) {
+.project-detail > .project-date {
+  margin-top: 12px;
+}
+
+.project-detail > p:not(.citation):not(.project-date):not(.status-note) {
   max-width: 62ch;
   margin-top: 24px;
   font-size: 18px;
@@ -261,7 +308,7 @@ h1 {
   max-width: 69ch;
   margin-top: 34px;
   color: var(--color-publication);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -273,11 +320,16 @@ h1 {
   max-width: 69ch;
   margin-top: 18px;
   color: var(--color-publication);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 @media (max-width: 620px) {
+  .entry-heading {
+    flex-direction: column;
+    gap: 6px;
+  }
+
   .site-shell {
     padding-top: 22px;
   }
