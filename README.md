@@ -3,7 +3,7 @@
 A static, text-led personal website for GitHub Pages, using the approved Notes design.
 
 - `index.html` contains the biography and grouped project links.
-- `styles.css` provides the shared monospace typography, green palette, and responsive layout.
+- `styles.css` provides the shared iA Writer Duo typography, purple palette, and responsive layout.
 - `interactions/` contains four full project pages.
 - `making-art/uneven-geography.html` contains the drawing and its artist statement.
 - `making-art/printmaking.html` contains the printmaking photographs.

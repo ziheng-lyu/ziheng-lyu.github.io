@@ -1,6 +1,8 @@
+@font-face{font-family:'iA Writer Duo';src:url('assets/fonts/ia-writer-duo.ttf') format('truetype');font-style:normal;font-weight:400 700;font-display:swap}
+@font-face{font-family:'iA Writer Duo';src:url('assets/fonts/ia-writer-duo-italic.ttf') format('truetype');font-style:italic;font-weight:400 700;font-display:swap}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:32px}
-body{--bg:#fbfbf8;--ink:#262626;--accent:#593677;--muted:#606060;background:var(--bg);color:var(--ink);margin:0;font:15.5px/1.65 Menlo,Consolas,'Liberation Mono',monospace}
+body{--bg:#fbfbf8;--ink:#262626;--accent:#593677;--muted:#606060;background:var(--bg);color:var(--ink);margin:0;font:15.5px/1.65 'iA Writer Duo',Menlo,Consolas,'Liberation Mono',monospace}
 a{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 a:hover{text-decoration-thickness:2px}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
