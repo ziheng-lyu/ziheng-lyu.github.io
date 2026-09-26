@@ -9,6 +9,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 h1,h2,h3,p{margin:0}h2,h3{font:inherit}
 header{display:flex;justify-content:space-between;gap:24px;align-items:baseline;max-width:730px;margin:62px auto 44px;padding-left:155px;font-size:13.5px}
 .name{color:var(--ink);text-decoration:none}
+.header-links{display:flex;gap:18px;white-space:nowrap}
 main{max-width:730px;margin:auto;padding-bottom:75px}
 .intro{margin-left:155px;font-size:16.5px;line-height:1.65;letter-spacing:normal}.intro p{max-width:62ch}
 .sections{margin-top:52px}
@@ -27,5 +28,5 @@ body.detail main{max-width:1000px;margin:40px auto 0;padding-left:28px;padding-r
 #project-content figcaption,#project-content .project-date{font-size:13px;color:var(--muted)}
 #project-content .citation{font-size:13.5px;color:var(--accent)}
 @media(max-width:800px){header{margin:35px 25px;padding-left:0}main{margin:0 25px}.intro{margin-left:0;max-width:590px}.group{grid-template-columns:110px minmax(0,1fr);gap:22px}}
-@media(max-width:520px){header{margin:28px 22px 35px;font-size:13.5px}main{margin:0 22px}.intro{font-size:15.5px}.group{display:block;margin-top:36px}.group h2{margin-bottom:18px}.sections{margin-top:38px}body.detail main{padding-left:22px;padding-right:22px}}
+@media(max-width:520px){header{margin:28px 22px 35px;font-size:13.5px;flex-wrap:wrap}.header-links{margin-left:auto}main{margin:0 22px}.intro{font-size:15.5px}.group{display:block;margin-top:36px}.group h2{margin-bottom:18px}.sections{margin-top:38px}body.detail main{padding-left:22px;padding-right:22px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
