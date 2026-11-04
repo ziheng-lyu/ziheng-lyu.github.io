@@ -26,7 +26,7 @@ body.detail main{max-width:1000px;margin:40px auto 0;padding-left:28px;padding-r
 #project-content img{display:block;max-width:100%;width:auto;height:auto;max-height:760px}
 #project-content figure{margin:35px 0}
 #project-content figcaption,#project-content .project-date{font-size:13px;color:var(--muted)}
-#project-content .citation{font-size:13.5px;color:var(--accent)}
+#project-content .citation{font-size:inherit;color:var(--accent)}
 @media(max-width:800px){header{margin:35px 25px;padding-left:0}main{margin:0 25px}.intro{margin-left:0;max-width:590px}.group{grid-template-columns:110px minmax(0,1fr);gap:22px}}
 @media(max-width:520px){header{margin:28px 22px 35px;font-size:13.5px;flex-wrap:wrap}.header-links{margin-left:auto}main{margin:0 22px}.intro{font-size:15.5px}.group{display:block;margin-top:36px}.group h2{margin-bottom:18px}.sections{margin-top:38px}body.detail main{padding-left:22px;padding-right:22px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
